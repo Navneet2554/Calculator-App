@@ -1,0 +1,17 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>JavaScript Example</title> 
+    <script> 
+        function changeText() { 
+            var paragraph = document.getElementById("myParagraph");
+            paragraph.textContent = "Text changed using JavaScript!"; // Fixed the closing curly brace and added a semicolon
+        } 
+    </script> 
+</head> 
+<body> 
+    <h1>JavaScript Example</h1> 
+    <p id="myParagraph">Click the button to change this text.</p> 
+    <button onclick="changeText()">Click me</button> 
+</body> 
+</html>
